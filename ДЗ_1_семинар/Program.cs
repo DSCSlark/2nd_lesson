@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿double a = -9;
+double b = -3;
+
+double max = a;
+
+if(a > max) max = a;
+if(b > max) max = b;
+
+Console.Write("max = ");
+Console.WriteLine(max);
